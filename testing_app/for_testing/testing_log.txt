@@ -6,3 +6,4 @@ ans =
 
     'Python process terminated unexpectedly. To restart the Python interpreter, first call "terminate(pyenv)" and then call a Python function.'
 
+THE PYTHON SCRIPT FAILED
