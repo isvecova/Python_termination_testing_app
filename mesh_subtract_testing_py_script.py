@@ -1,4 +1,5 @@
 import numpy as np
+import time
 
 print('before import')
 
@@ -46,6 +47,7 @@ def mesh_subtract_and_separate_with_color(mesh_data, green_threshold=0.3, tolera
 
 
     print('bofore boolean difference')
+    time.sleep(20)
 
     # Perform boolean difference with vertex color transfer
     ms.generate_boolean_difference(first_mesh=0, second_mesh=1)
